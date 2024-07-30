@@ -21,7 +21,6 @@ jobs:
   deploy:
     needs: build
     runs-on: self-hosted
-    labels: [aws-ec2]
     steps:
       - name: Pull image from docker hub
         run: docker pull deep93/docker-aws-ec2:latest
