@@ -18,11 +18,8 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/bankdash',
+  base: '/bankdash/',
 
-  preview: {
-    port: 3001,
-  },
   server: {
     watch: {
       usePolling: true,
